@@ -1,0 +1,8 @@
+build --repo_env=CC='clang++'
+build --cxxopt='-stdlib=libc++'
+build --linkopt='-lc++'
+
+build --cxxopt='-std=c++2a'
+build --cxxopt='-fmodules'
+build --spawn_strategy=standalone
+
