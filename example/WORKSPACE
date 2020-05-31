@@ -1,4 +1,4 @@
 local_repository(
-    name = "bazel_rules_cc_module", 
+    name = "rules_cc_module", 
     path = ".."
 )
