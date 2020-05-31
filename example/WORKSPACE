@@ -1,4 +1,12 @@
-local_repository(
-    name = "rules_cc_module", 
-    path = ".."
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+
+git_repository(
+   name = "rules_cc_module",
+   commit = "13edd4e5beeb738c09e8174263abd6c2fba1ae97",
+   remote = "https://github.com/zyctree/bazel_rules_cc_module.git",
 )
+
+# local_repository(
+#     name = "rules_cc_module", 
+#     path = ".."
+# )
